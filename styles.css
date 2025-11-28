@@ -1,0 +1,68 @@
+
+
+header[data-testid="stHeader"] {
+    display: none;
+}
+
+div.block-container {
+    padding-top: 1rem;
+}
+
+body {
+    background-color: #E8E2DB;
+}
+
+.stApp {
+    background-color: #E8E2DB;
+}
+
+html, body, p, span, div, label, h1, h2, h3, h4, h5, h6 {
+    color: #436B5C;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #436B5C ;
+}
+
+.stSelectbox > div[data-baseweb="select"] > div {
+    color: #000000;
+}
+
+/*  Fondo de TODOS los tabs  */
+.tab-bg {
+    background-color: #E8E2DB !important;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+/*  Filtros  */
+.stMultiSelect div[data-baseweb="select"] > div {
+    background-color: #E8E2DB !important;
+    border-radius: 10px;
+    color: #E8E2DB !important;
+}
+
+.stMultiSelect span {
+    color: #E8E2DB !important;
+}
+
+/* opciones seleccionadas */
+.stMultiSelect svg {
+    fill: #E8E2DB !important;
+}
+
+/* Menú desplegable */
+ul[role="listbox"] li {
+    background-color: #F2BF91 !important;
+    color: #E8E2DB !important;
+}
+
+/*  Caja de descargar datos  */
+.download-box {
+    background-color: #E8E2DB !important;
+    padding: 12px;
+    border-radius: 12px;
+    width: 330px;
+}
